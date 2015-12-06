@@ -34,3 +34,25 @@ img {
 .social img {
   margin: 20px 5px 10px 5px;
 }
+
+.gallery .thumbnail {
+	height: 420px;
+}
+
+@media (max-width: 767px) {
+	.gallery .thumbnail {
+		height: auto;
+	}	
+}
+
+@media (min-width: 768px) {
+	.gallery .thumbnail {
+		height: 380px;
+	}	
+}
+
+@media (min-width: 992px) {
+	.gallery .thumbnail {
+		height: 410px;
+	}	
+}
