@@ -32,12 +32,13 @@ img {
 }
 
 .social {
+  margin-top: 10px;
   width: 100%;
   text-align: center;
 }
 
 .social img {
-  margin: 20px 5px 10px 5px;
+  margin: 20px 10px 10px 10px;
 }
 
 .gallery .thumbnail {
