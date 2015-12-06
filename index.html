@@ -14,6 +14,14 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 	<link href="./css/theme.css" rel="stylesheet">
 	<link href="./css/style.css" rel="stylesheet">
+	
+	<script src="./js/jquery-2.1.4.min.js"></script> 
+	
+    <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script>
 
   </head>
 
@@ -180,115 +188,22 @@
 	</div><!-- /.container -->
 	
       <!-- /END THE FEATURETTES -->
-	<footer>
-	<div class="container-fluid dark" id="contact">
-	  
-		<div class="col-md-4">
-			<p>&nbsp;</p>
-			<a title="Click for the Business Review of Modern Era Design Inc, an Interior Decorators & Designers in Edmonton AB" href="https://www.bbb.org/edmonton/business-reviews/interior-decorators-and-designers/modern-era-design-in-edmonton-ab-172301#sealclick"><img alt="Click for the BBB Business Review of this Interior Decorators & Designers in Edmonton AB" style="border: 0;" src="https://seal-edmonton.bbb.org/seals/black-seal-120-61-whitetxt-moderneradesigninc-172301.png" /></a>
-		</div>
-		<div class="col-md-4">
-			
-		</div>
-		<div class="col-md-4">
-			<p class="social">
-			<a href="http://www.facebook.com/jehan.fayad"><img src="./img/facebook.png" alt="facebook" width="50" height="50" /></a>
-			<a href="http://www.houzz.com/pro/jehan-fayad"><img src="./img/houzz.png" alt="houzz" width="50" height="50" /></a>
-			<a href="http://snapwidget.com/u/824029115"><img src="./img/instagram.png" alt="instagram" width="50" height="50" /></a>
-			<a href="http://www.linkedin.com/profile/view?id=209522150"><img src="./img/Linkedin.png" alt="Linkedin" width="50" height="50" /></a>
-			</p>
-			<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#contactmodal">
-				Contact Us
-			</button>
-		</div>
-
-		<div class="col-md-12">
-			<div class="footer">
-			<p class="pull-right"><a href="#">Back to top</a></p>
-			<p>&copy; 2016 Modern Era Design, Inc. <!--&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>--></p>
-			</div>
-		</div>
-	</div>
-	</footer>
-
-
-		<div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Contact Us</h4>
-			  </div>
-			  <div class="modal-body">
-
-				<form class="form-horizontal" role="form" action="" method="post" name="" id="" accept-charset="utf-8">
-				  <input type="hidden" name="formID" value="" />
-				  
-				  <div class="form-group">
-					<label for="q15_yourName" class="col-sm-4 control-label">Your Name</label>
-					<div class="col-sm-4">
-					  <input class="form-control" type="text" size="10" name="q15_yourName[first]" id="first_15" placeholder="First Name" required />
-					</div>
-					<div class="col-sm-4">
-					  <input class="form-control" type="text" size="15" name="q15_yourName[last]" id="last_15" placeholder="Last Name"/>
-					</div>
-				  </div>
-				  <div class="form-group">
-					<label for="q16_yourEmail16" class="col-sm-4 control-label">Your Email Address</label>
-					<div class="col-sm-8">
-					  <input type="email" class="form-control" id="input_16" name="q16_yourEmail16" size="32" placeholder="name@domain.com">
-					</div>
-				  </div>
-				  <div class="form-group">
-					<label for="q22_phoneNumber22" class="col-sm-4 control-label">Phone Number</label>
-					<div class="col-sm-2">
-					  <input type="tel" class="form-control" name="q22_phoneNumber22[area]" id="input_22_area" size="3" placeholder="780">
-					</div>
-					<div class="col-sm-1">
-					 <strong>_</strong>
-					</div>
-					<div class="col-sm-5">
-					  <input type="tel" class="form-control" name="q22_phoneNumber22[phone]" id="input_22_phone" size="8" placeholder="444-4444">
-					</div>
-				  </div>
-				  
-				  <div class="form-group">
-					<label for="q17_yourMessage" class="col-sm-4 control-label">Message</label>
-					<div class="col-sm-8">
-					  <textarea class="form-control" id="input_17" name="q17_yourMessage" rows="3" placeholder="Your Message" required ></textarea>
-					</div>
-				  </div>	
-				  
-				  <div class="form-group">
-				    <label for="input_23" class="col-sm-4 control-label">Prefered Contact?</label>
-					<div class="col-sm-8">
-					  <input type="radio" id="input_23_0" name="q23_preferedContact23" value="E-mail" /> E-mail<br/>
-					  <input type="radio" id="input_23_1" name="q23_preferedContact23" value="Phone" checked /> Phone
-					</div>
-				  </div>
-				</div> <!-- /.modal-body -->
-						
-				  <input type="hidden" name="website" value="" />
-				  <input type="hidden" id="simple_spc" name="simple_spc" value="" />
-				  <script type="text/javascript">
-				  document.getElementById("si" + "mple" + "_spc").value = "40196340681251-40196340681251";
-				  </script>
-					  
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-				  <button id="input_14" type="submit" class="btn btn-primary">Send Message</button>	  
-			    </div>
-			  </form>
-			</div><!-- /.modal-content -->
-		  </div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->
-      
-
-
+	
+	<div id="footer"></div>
+	<div id="contactmodal"></div>
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery-2.1.4.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+	
+	<script> 
+		$(function(){
+		  $("#footer").load("footer.html"); 
+		});
+		$(function(){
+		  $("#contactmodal").load("contactmodal.html"); 
+		});
+    </script>
 
   </body>
 </html>
