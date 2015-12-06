@@ -26,6 +26,11 @@ img {
   padding-bottom: 40px;
 }
 
+#footer footer {
+  max-width: 1400px;
+  margin: auto;
+}
+
 .social {
   width: 100%;
   text-align: center;
