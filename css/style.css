@@ -1,0 +1,27 @@
+.menu-logo {
+	z-index:10000;
+	padding: 20px;
+	position: absolute;
+	height: auto;
+	margin-left: 15px;
+	background: grey;
+}
+
+img {
+	margin: auto;
+}
+
+.dark {
+	color:#fff;
+}
+
+#contact {
+	background:#101010;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
