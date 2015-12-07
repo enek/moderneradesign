@@ -89,8 +89,12 @@
 	</div>
 	</footer>
 	</div>
-	
-	<div id="contactus">
+
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+	<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.10159" type="text/javascript"></script>
+	<script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 	
 		<div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
@@ -161,24 +165,7 @@
 			  </form>
 			</div><!-- /.modal-content -->
 		  </div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->	
-	
-	</div>
-
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery-2.1.4.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-	<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-	<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.10159" type="text/javascript"></script>
-	
-	<script> 
-		$(function(){
-		  $("#footer").load("footer.html"); 
-		});
-		$(function(){
-		  $("#contactus").load("contactmodal.html"); 
-		});
-    </script>
+		</div><!-- /.modal -->
 
   </body>
 </html>
