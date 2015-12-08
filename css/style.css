@@ -42,23 +42,24 @@ img {
 	overflow: hidden;
 }
 
-@media (max-width: 767px) {
-	.gallery .thumbnail {
-		height: auto;
-	}
+@media (max-width: 767px) {	
 	.social img {
 		margin: 20px 5px 10px 5px;
 	}
+	#gallery .thumbnail {
+		max-width: 328px;
+	}
+
 }
 
 @media (min-width: 768px) {
-	.gallery .thumbnail {
-		height: 380px;
-	}	
+	#gallery .thumbnail {
+		max-width: 328px;
+	}
 }
 
 @media (min-width: 992px) {
-	.gallery .thumbnail {
-		height: 410px;
-	}	
+	#gallery .thumbnail {
+		max-width: 328px;
+	}
 }
