@@ -41,8 +41,9 @@ img {
   margin: 20px 10px 10px 10px;
 }
 
-.gallery .thumbnail {
-	height: 420px;
+#gallery .thumbnail_img {
+	max-height: 214px;
+	overflow: hidden;
 }
 
 @media (max-width: 767px) {
