@@ -45,7 +45,10 @@ img {
 @media (max-width: 767px) {
 	.gallery .thumbnail {
 		height: auto;
-	}	
+	}
+	.social img {
+		margin: 20px 5px 10px 5px;
+	}
 }
 
 @media (min-width: 768px) {
