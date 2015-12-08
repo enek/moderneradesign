@@ -1,10 +1,10 @@
 .menu-logo {
 	z-index:10000;
-	padding: 20px;
+	padding: 10px;
 	position: absolute;
 	height: auto;
 	margin-left: 15px;
-	background: grey;
+	background: white;
 }
 
 img {
