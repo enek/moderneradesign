@@ -43,8 +43,9 @@ img {
 }
 
 #gallery .caption {
-	margin-top: -80px;
-	padding: 20px;
+	margin-top: -60px;
+	margin-left: 15px;
+	margin-right: 15px;
 	overflow: hidden;
 }
 
@@ -76,10 +77,18 @@ img {
 	#gallery .thumbnail {
 		max-width: 328px;
 	}
+	#gallery .caption h4 .text-muted {
+		display: none;
+	}
 }
 
 @media (min-width: 992px) {
 	#gallery .thumbnail {
 		max-width: 328px;
+	}
+	#gallery .caption h4 .text-muted {
+		display: initial;
+		color: #CCC;
+		font-size: small;
 	}
 }
