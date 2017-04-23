@@ -42,6 +42,26 @@ img {
 	overflow: hidden;
 }
 
+#gallery .caption {
+	margin-top: -80px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+#gallery .caption a:hover {
+	text-decoration: none;
+}
+
+#gallery .caption h4 {
+	color: #FFF;
+	white-space: nowrap;
+}
+
+#gallery .caption h4 .text-muted {
+	color: #CCC;
+	font-size: small;
+}
+
 @media (max-width: 767px) {	
 	.social img {
 		margin: 20px 5px 10px 5px;
