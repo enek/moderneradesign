@@ -41,7 +41,9 @@ body {
 .carousel {
   height: 400px;
   margin-bottom: 60px;
+  overflow: hidden;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -63,6 +65,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
+  max-width: none;
   height: 400px;
 }
 
@@ -111,6 +114,9 @@ body {
 @media (max-width: 767px) {
 	#navbar {
 		margin-top: 100px;
+	}
+	.carousel-inner > .item > img {
+		left: -20% !important;
 	}
 	
 }
